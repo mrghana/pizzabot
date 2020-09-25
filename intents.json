@@ -1,0 +1,66 @@
+{"intents": [
+
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help with your order?"],
+         "context": [""]
+        },
+		
+		{"tag":"Pbot",
+		 "patterns":["Hey Pbot","Hii Pbot", "Pbot"],
+		 "responses": ["Pbot is here !!","This is Pbot , How may I help you ..!"],
+		 "context":[""]
+		},
+		
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you! Happy Pizza", "Have a nice day with yummy pizza", "Bye! Come back again soon."],
+         "context": [""]
+        },
+		
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help with you order!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+		
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+		
+       { "tag": "pizza",
+	     "patterns":["pizza","Can you book a Pizza ?","Order Pizza !!"],
+		 "responses":["Happy to order","Can you tell me what type of pizza you want ", "Yes sure "],
+		 "context":[""]
+       },
+	   
+	   {"tag" :"types",
+	    "patterns" :["what are my options","types available","My available choices"],
+		"responses":["Veg pizza and Non Veg pizza are available","Types of pizza availables or Veg and non Veg"],
+		"context":[""]
+	   },
+	   {
+	   "tag":"Size",
+	   "patterns":["What are sizes ?","Quantity of Pizza ?","sizes of my pizza"],
+	   "responses":["The available options are : Regular Medium Large"],
+	   "context":[""]
+	   },
+	   
+	   {
+	   "tag":"options",
+	   "patterns":["Topping","Extra Cheese","More Cheese","More peri peri"],
+	   "responses":["Your toppings request is considered ", "Its added in specifications"],
+	   "context":[""]
+	   },
+	   {
+	   "tag":"count",
+	   "patterns":["Add 3 pizzas","I want 1 pizza","2","3","4","5","6"],
+	   "responses":["Required no of pizza are added, Still any ?"],
+	   "context":[""]
+	   }
+	   
+   ]
+}
+
